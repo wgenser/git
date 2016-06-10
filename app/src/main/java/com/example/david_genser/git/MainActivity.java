@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         // Button-Variablen erzeugen
         Button Knopf1 = (Button) findViewById(R.id.button);
         Button Knopf2 = (Button) findViewById(R.id.button2);
+        Button Knopf3 = (Button) findViewById(R.id.button3);
 
         // Buttons und Methoden verknÃ¼pfen
         Knopf1.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Knopf2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Anzeige1.setText(R.string.String_Minus);
+                // Anzeige1.setText("Das tut mir leid!");
+            }
+        });
+
+        Knopf3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Anzeige1.setText(R.string.Antwort_Unsicher);
+                          }
+        });
 
     }
 }
