@@ -27,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Antwort_Schelcht"
+        android:text="@string/Antwort_Schlecht"
         android:id="@+id/button2"
         android:layout_alignBottom="@+id/button"
         android:layout_alignParentEnd="true" />

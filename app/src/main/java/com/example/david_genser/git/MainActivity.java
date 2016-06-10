@@ -24,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
         Button Knopf1 = (Button) findViewById(R.id.button);
         Button Knopf2 = (Button) findViewById(R.id.button2);
 
+        // Buttons und Methoden verknÃ¼pfen
+        Knopf1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Anzeige1.setText(R.string.String_Plus);
+                // Anzeige1.setText("Das freut mich!");
+            }
+        });
+
 
     }
 }
