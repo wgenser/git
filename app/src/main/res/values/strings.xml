@@ -3,4 +3,6 @@
     <string name="Hallo_Frage">Hallo, Wie geht es Dir?</string>
     <string name="Antwort_Gut">Gut</string>
     <string name="Antwort_Schelcht">Schlecht</string>
+    <string name="String_Plus">Das freut mich!</string>
+    <string name="String_Minus">Das tut mir leid!</string>
 </resources>
