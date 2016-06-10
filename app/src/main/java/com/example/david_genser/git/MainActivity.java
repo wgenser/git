@@ -30,16 +30,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Anzeige1.setText(R.string.String_Plus);
-                // Anzeige1.setText("Das freut mich!");
-            }
+                        }
         });
 
         Knopf2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Anzeige1.setText(R.string.String_Minus);
-                // Anzeige1.setText("Das tut mir leid!");
-            }
+                      }
         });
 
         Knopf3.setOnClickListener(new View.OnClickListener() {
