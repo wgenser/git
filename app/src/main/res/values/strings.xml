@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">git</string>
+    <string name="app_name">Hallo</string>
     <string name="Hallo_Frage">Hallo, Wie geht es Dir?</string>
     <string name="Antwort_Gut">Gut</string>
     <string name="Antwort_Schlecht">Schlecht</string>

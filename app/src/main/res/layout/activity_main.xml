@@ -13,10 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Hallo_Frage"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="@string/Antwort_Gut"
         android:id="@+id/button"
@@ -25,7 +28,7 @@
         android:layout_marginTop="40dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="@string/Antwort_Schlecht"
         android:id="@+id/button2"
