@@ -5,4 +5,5 @@
     <string name="Antwort_Schelcht">Schlecht</string>
     <string name="String_Plus">Das freut mich!</string>
     <string name="String_Minus">Das tut mir leid!</string>
+    <string name="Antwort_Unsicher">Weiß nicht so genau!</string>
 </resources>
